@@ -1,68 +1,124 @@
-@media(max-width: 1200px){
+@media(max-width: 1200px) {
     .container {
         max-width: 960px;
     }
+
     .div {
-        flex-direction: column;
+        max-width: 630px;
+        width: 100%;
+        flex-wrap: wrap;
     }
 }
 
-@media(max-width: 992px){
+@media(max-width: 992px) {
     .container {
         max-width: 720px;
     }
+
     .nav {
-       padding: 20px;
+        padding: 20px;
     }
+
     .nav .container {
-      flex-direction: column;
+        flex-direction: column;
 
     }
+
     .header-banner {
-       height: 80vh;
+        height: 80vh;
     }
+
     .about-us-desc {
-     flex-direction: column;
+        flex-direction: column;
     }
+
     .main-about-us {
         margin-bottom: 50px;
     }
 }
 
-@media(max-width: 768px){
+@media(max-width: 768px) {
     .container {
         max-width: 540px;
     }
+
     .contact-div1 {
         flex-direction: column;
     }
+
     .contact-desc {
         margin-bottom: 30px;
     }
+
+    .div {
+        justify-content: center;
+    }
+
+    .header-banner-title {
+        font-weight: 500;
+        font-size: 70px;
+    }
+
+    .header-banner-desc {
+        font-weight: 450;
+        font-size: 30px;
+    }
+
 }
 
-@media(max-width: 576px){
+@media(max-width: 576px) {
     .container {
         max-width: auto;
     }
-     .header-banner-desc {
-      flex-wrap: wrap;
-      padding: 0 30px;
+
+    .header-banner-desc {
+        flex-wrap: wrap;
+        padding: 0 30px;
     }
+
     .main-about-us {
         flex-wrap: wrap;
         justify-content: center;
-        align-items: center;
         max-width: 450px;
+        align-items: center;
+    }
+
+    .about-us {
+        margin-bottom: 15px;
+    }
+
+    .main-about-us {
+        justify-content: center;
+        align-items: center;
+    }
+    .main-img {
+        width: 470px;
     }
 }
 
-@media(max-width: 470px){
+@media(max-width: 470px) {
     .header-list {
         flex-direction: column;
-     }
-     .header-banner {
+    }
+
+    .header-banner {
         height: 65vh;
         padding: 15px 0;
-     }
+    }
+    .header-banner-title {
+        font-weight: 300;
+        font-size: 60px;
+        margin-bottom: 15px;
+    }
+
+    .header-banner-desc {
+        font-weight: 350;
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .main-img {
+        max-width: 445px;
+        width: 100%;
+        margin-bottom: 15px;
+    }
 }
