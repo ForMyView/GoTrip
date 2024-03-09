@@ -91,20 +91,24 @@
         justify-content: center;
         align-items: center;
     }
+
     .main-img {
         width: 470px;
     }
 }
 
 @media(max-width: 470px) {
-    .header-list {
-        flex-direction: column;
+
+    .header-link {
+        font-size: 14px;
+        line-height: 16px;  
     }
 
     .header-banner {
         height: 65vh;
         padding: 15px 0;
     }
+
     .header-banner-title {
         font-weight: 300;
         font-size: 60px;
@@ -116,6 +120,7 @@
         font-size: 20px;
         margin-bottom: 15px;
     }
+
     .main-img {
         max-width: 445px;
         width: 100%;
